@@ -54,6 +54,7 @@ fun DecisionScreen(
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ){
+        Spacer(modifier = Modifier.weight(1f))
 
         if (totalClicks == 0){
             currentWords = "Choose your fate"
@@ -90,7 +91,7 @@ fun DecisionScreen(
 
         Spacer(modifier = Modifier.weight(1f))
         Text(
-            text = "Made by Uchenna Ibeziako",
+            text = "CCID Ibeziako",
             textAlign = TextAlign.Center)
         Text("ID 1863920")
     }
